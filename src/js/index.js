@@ -47,14 +47,14 @@ document.querySelector("#cards").innerHTML =
                 newGame("sweden", "02H00", "south-africa") 
                 ) +
         newCard("24/07", "segunda", 
+            newGame("colombia", "01H00", "south-korea") +
             newGame("italy", "03H00", "argentina") +
             newGame("germany", "03H30", "morocco") +
-            newGame("brazil", "08H30", "tba") +
-            newGame("colombia", "01H00", "south-korea")
+            newGame("brazil", "08H30", "tba")
                 ) +
         newCard("25/07", "terça", 
-            newGame("new-zealand", "02H30", "philippines") +
-            newGame("switzerland", "04H00", "norway") 
+            newGame("switzerland", "04H00", "norway") +
+            newGame("new-zealand", "02H30", "philippines")
                 ) +
         newCard("26/07", "quarta", 
             newGame("japan", "01H00", "costa-rica") +    
