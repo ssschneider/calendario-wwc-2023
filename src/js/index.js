@@ -53,7 +53,6 @@ document.querySelector("#cards").innerHTML =
             newGame("colombia", "01H00", "south-korea")
                 ) +
         newCard("25/07", "terça", 
-             +
             newGame("new-zealand", "02H30", "philippines") +
             newGame("switzerland", "04H00", "norway") 
                 ) +
