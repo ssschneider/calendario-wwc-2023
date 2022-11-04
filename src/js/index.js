@@ -103,5 +103,5 @@ document.querySelector("#cards").innerHTML =
         newCard("03/08", "quinta", 
             newGame("south-korea", "07H00", "germany") +
             newGame("morocco", "07H00", "colombia") 
-                )
+                );
 
