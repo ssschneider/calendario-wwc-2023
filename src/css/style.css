@@ -1,0 +1,148 @@
+body {
+    background-color: #121214;
+    background-image: var(--background);
+    background-position: center 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 5rem 4rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 6rem;
+    gap: 2.4rem;
+    transition: 0.5s ease-in-out;
+}
+
+header:hover {
+    scale: 1.1;
+}
+
+header .main-header {
+    display: flex;
+    align-items: center;
+}
+
+header .further-info h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+
+header .further-info h2:hover {
+    color: #D8227F;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    max-width: 150px;
+}
+
+main {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 5rem;
+    width: 270px;
+    background-color: #1D1C19;
+    border: 1px solid #1D1C19;
+    border-radius: 6px;
+    padding: 3.2rem 2.3rem;
+    border-bottom: 2px solid var(--card-border);
+    transition: 0.8s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: var(--card-border) 0px 0px 10px;
+    border-color: var(--card-border);
+}
+
+.card .date {
+    display: flex;
+    place-items: center;
+    gap: 1.6rem;
+    border: 1px solid var(--card-border);
+    padding: .8rem 1.6rem;
+    border-radius: 6px;
+}
+
+.card .date h2 {
+    color: #C498B1;
+    font-size: 2.4rem;
+}
+
+.card .date p {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.card ul {
+    width: 100%;
+}
+
+.card ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card ul li img {
+    max-width: 50px;
+}
+
+.card ul li strong {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.card ul li + li {
+    margin-top: 2.4rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid #323238;
+}
+
+.card ul li img, .card ul li strong, .card .date {
+    transition: 0.5s;
+}
+
+.card ul li img:hover {
+    scale: 1.1;
+    box-shadow: var(--card-border) 0px 0px 5px;
+    border-radius: 100%;
+}
+
+.card .date:hover {
+    letter-spacing: 2px;
+}
+
+.card ul li strong:hover {
+    color: #C498B1;
+    scale: 1.1;
+}
+
+footer p, footer p a {
+    color: #C498B1;
+    font-size: 1.4rem;
+    margin-top: 3.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #D8227F;
+}
